@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>tools</class>
+ <widget class="QWidget" name="tools">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>731</width>
+    <height>592</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Herramientas de exportacion e importacion</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>691</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="page_3">
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>691</width>
+       <height>491</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="6" column="0">
+       <widget class="QPlainTextEdit" name="plainTextEditComentarioEnd"/>
+      </item>
+      <item row="11" column="2">
+       <widget class="QPushButton" name="pushButtonExportarPDF">
+        <property name="text">
+         <string>Exportar PDF</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Vista ejemplo</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2" rowspan="6" colspan="2">
+       <widget class="QLabel" name="labelImagePdf">
+        <property name="text">
+         <string>Imagen Ejemplo de Pdf</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>Filtro de la base de datos para listar en la tabla</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="0">
+       <widget class="QLineEdit" name="lineEditFiltroParametro"/>
+      </item>
+      <item row="11" column="0">
+       <widget class="QCheckBox" name="checkBoxFiltroEstricto">
+        <property name="text">
+         <string>Busqueda Estricta</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLineEdit" name="lineEditTituloPdf"/>
+      </item>
+      <item row="1" column="1" rowspan="8">
+       <widget class="Line" name="line">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Comentario Final del Documento</string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="0">
+       <widget class="QComboBox" name="comboBoxFiltro">
+        <item>
+         <property name="text">
+          <string>Codigo Unico</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Nombre</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Institucion Ejecuta</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ambito del Proyecto</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Institucion Financia</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Institucion Financia Dos</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Monto Aprobado</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Monto Solicitado</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Comunidad</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Estatus</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Indicador</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Comentario Inicio del Documento</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QPlainTextEdit" name="plainTextEditComentarioStart"/>
+      </item>
+      <item row="11" column="3">
+       <widget class="QPushButton" name="pushButtonClean">
+        <property name="text">
+         <string>Limpiar</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" rowspan="2">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Titulo del Documento</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="2">
+       <widget class="QLabel" name="labelIcon">
+        <property name="text">
+         <string>PDF</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>691</width>
+       <height>171</height>
+      </rect>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif'; font-size:10pt;&quot;&gt;Para importar desde un archivo &lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif'; font-size:10pt; font-weight:600;&quot;&gt;CSV&lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif'; font-size:10pt;&quot;&gt; guardado desde &lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif'; font-size:10pt; font-weight:600;&quot;&gt;Microsoft Excel &lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif'; font-size:10pt;&quot;&gt;o &lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif'; font-size:10pt; font-weight:600;&quot;&gt;Openoffice Calc,&lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif'; font-size:10pt;&quot;&gt; es necesario que el archivo sea un CSV separado con el carácter &lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif'; font-size:10pt; font-weight:600;&quot;&gt;( ; )&lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif'; font-size:10pt;&quot;&gt;(punto y coma). El archivo debe ser guardado con la misma cantidad de atributos que el &lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif'; font-size:10pt; font-weight:600;&quot;&gt;Banco de Proyectos&lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif'; font-size:10pt;&quot;&gt;, es decir:&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Courier New'; font-size:10pt; color:#000000;&quot;&gt;Codigo;Nombre;InstitucionEjecuta;AmbitoProyecto;InstitucionFinancia;InstitucionFinanciaDos;PorcentajeInstitucionFinancia;PorcentajeInstitucionFinanciaDos;MontoAprobado;MontoSolicitado;FechaInicio;FechaFin;Objetivos;Comunidad;NumeroBeneficiarios;Estatus;Contacto;Indicador;Comentario;Insersion&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif'; font-size:10pt;&quot;&gt;Todos los elementos en ese orden serán insertados en el Banco de datos.&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>210</y>
+       <width>631</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>Seleccione el archivo CSV a importar:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLineEdit" name="lineEditArchivoImportarCsv"/>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButtonSeleccioneCsv">
+          <property name="text">
+           <string>Seleccione</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QPushButton" name="pushButtonImport">
+          <property name="text">
+           <string>Realizar la importacion</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>350</y>
+       <width>621</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Recuerde que todos los proyectos del archivo CSV seran insertados en el Banco de Proyectos si no existen previamente o 
+ poseen algun error</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page">
+    <widget class="QWidget" name="verticalLayoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>20</y>
+       <width>631</width>
+       <height>133</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QTextBrowser" name="textBrowser_2">
+        <property name="html">
+         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif,serif'; font-size:10pt;&quot;&gt;Al exportar el Banco de Proyectos a un archivo &lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif,serif'; font-size:10pt; font-weight:600;&quot;&gt;CSV&lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif,serif'; font-size:10pt;&quot;&gt; que pueda ser abierto en &lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif,serif'; font-size:10pt; font-weight:600;&quot;&gt;Microsoft Excel &lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif,serif'; font-size:10pt;&quot;&gt;o &lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif,serif'; font-size:10pt; font-weight:600;&quot;&gt;Openoffice Calc,&lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif,serif'; font-size:10pt;&quot;&gt; se generará un archivo de datos separados por el carácter &lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif,serif'; font-size:10pt; font-weight:600;&quot;&gt;( ; )&lt;/span&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2,sans-serif,serif'; font-size:10pt;&quot;&gt;(punto y coma). &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QLineEdit" name="lineEditDireccionExportarCSV"/>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButtonGoExportarCSV">
+          <property name="text">
+           <string>Ubicar lugar de Creacion del ARchivo</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonHacerExport">
+        <property name="text">
+         <string>Exportar a CSV</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_4">
+    <widget class="QWidget" name="layoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>691</width>
+       <height>491</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="6" column="0">
+       <widget class="QPlainTextEdit" name="plainTextEditComentarioEnd_2"/>
+      </item>
+      <item row="11" column="2">
+       <widget class="QPushButton" name="pushButtonExportarPDF_2">
+        <property name="statusTip">
+         <string>Guarda en PDF todos los proyectos resultantes. Si no se coloca niguna palabra para buscar, creara el PDF con todos los proyectos contenidos en el banco de proyectos.</string>
+        </property>
+        <property name="text">
+         <string>Exportar Detalle PDF</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_11">
+        <property name="text">
+         <string>Vista ejemplo de pdf en detalle</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2" rowspan="6" colspan="2">
+       <widget class="QLabel" name="labelImagePdf_2">
+        <property name="text">
+         <string>Imagen Ejemplo de Pdf</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="label_12">
+        <property name="text">
+         <string>Filtro de la base de datos para listar en la tabla</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="0">
+       <widget class="QLineEdit" name="lineEditFiltroParametro_2">
+        <property name="statusTip">
+         <string>De no colocar frase o palabra a buscar, se tomarán todos los proyectos contenidos en el banco de proyectos.</string>
+        </property>
+       </widget>
+      </item>
+      <item row="11" column="0">
+       <widget class="QCheckBox" name="checkBoxFiltroEstricto_2">
+        <property name="text">
+         <string>Busqueda Estricta</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLineEdit" name="lineEditTituloPdf_2"/>
+      </item>
+      <item row="1" column="1" rowspan="8">
+       <widget class="Line" name="line_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="label_13">
+        <property name="text">
+         <string>Comentario Final del Documento</string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="0">
+       <widget class="QComboBox" name="comboBoxFiltro_2">
+        <item>
+         <property name="text">
+          <string>Codigo Unico</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Nombre</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Institucion Ejecuta</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ambioto del Proyecto</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Institucion Financia</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Institucion Financia Dos</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Monto Aprobado</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Monto Solicitado</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Comunidad</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Estatus</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Indicador</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_14">
+        <property name="text">
+         <string>Comentario Inicio del Documento</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QPlainTextEdit" name="plainTextEditComentarioStart_2"/>
+      </item>
+      <item row="11" column="3">
+       <widget class="QPushButton" name="pushButtonClean_2">
+        <property name="text">
+         <string>Limpiar</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" rowspan="2">
+       <widget class="QLabel" name="label_16">
+        <property name="text">
+         <string>Titulo del Documento</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="2">
+       <widget class="QLabel" name="labelIcon_2">
+        <property name="text">
+         <string>PDF</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>700</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButtonExportarCsv">
+      <property name="text">
+       <string>Exportar detalles de Proyectos en PDF</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButtonToolPdf">
+      <property name="text">
+       <string>Exportar a tabla  Proyectos en PDF</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButtonToolCsv">
+      <property name="text">
+       <string> Importar desde CSV</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButtonExportarDetallePdf">
+      <property name="text">
+       <string>Exportar a CSV</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
