@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1217</width>
-    <height>802</height>
+    <width>1109</width>
+    <height>699</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,20 +17,20 @@
    <widget class="QStackedWidget" name="stackedWidget">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>100</x>
       <y>0</y>
-      <width>1071</width>
+      <width>981</width>
       <height>731</height>
      </rect>
     </property>
     <property name="currentIndex">
-     <number>3</number>
+     <number>5</number>
     </property>
     <widget class="QWidget" name="page">
      <widget class="QPushButton" name="pushButtonSaveInsertar">
       <property name="geometry">
        <rect>
-        <x>870</x>
+        <x>790</x>
         <y>550</y>
         <width>111</width>
         <height>71</height>
@@ -46,8 +46,8 @@
      <widget class="QPushButton" name="pushButtonResetInsert">
       <property name="geometry">
        <rect>
-        <x>790</x>
-        <y>572</y>
+        <x>710</x>
+        <y>570</y>
         <width>71</width>
         <height>21</height>
        </rect>
@@ -62,9 +62,9 @@
      <widget class="QWidget" name="verticalLayoutWidget">
       <property name="geometry">
        <rect>
-        <x>480</x>
+        <x>430</x>
         <y>10</y>
-        <width>531</width>
+        <width>481</width>
         <height>531</height>
        </rect>
       </property>
@@ -135,7 +135,7 @@
      <widget class="QSlider" name="horizontalSlider">
       <property name="geometry">
        <rect>
-        <x>470</x>
+        <x>420</x>
         <y>560</y>
         <width>241</width>
         <height>41</height>
@@ -163,7 +163,7 @@
      <widget class="QWidget" name="horizontalLayoutWidget_3">
       <property name="geometry">
        <rect>
-        <x>470</x>
+        <x>420</x>
         <y>600</y>
         <width>281</width>
         <height>19</height>
@@ -210,7 +210,7 @@
      <widget class="QLabel" name="label_40">
       <property name="geometry">
        <rect>
-        <x>470</x>
+        <x>420</x>
         <y>550</y>
         <width>241</width>
         <height>16</height>
@@ -225,7 +225,7 @@
        <rect>
         <x>0</x>
         <y>10</y>
-        <width>441</width>
+        <width>401</width>
         <height>700</height>
        </rect>
       </property>
@@ -540,9 +540,9 @@ Pruebe a cambiar el filtro de busqueda.
      <widget class="QLabel" name="label_22">
       <property name="geometry">
        <rect>
-        <x>470</x>
+        <x>440</x>
         <y>540</y>
-        <width>261</width>
+        <width>201</width>
         <height>16</height>
        </rect>
       </property>
@@ -553,9 +553,9 @@ Pruebe a cambiar el filtro de busqueda.
      <widget class="QProgressBar" name="progressBar">
       <property name="geometry">
        <rect>
-        <x>470</x>
-        <y>560</y>
-        <width>241</width>
+        <x>440</x>
+        <y>570</y>
+        <width>211</width>
         <height>31</height>
        </rect>
       </property>
@@ -566,9 +566,9 @@ Pruebe a cambiar el filtro de busqueda.
      <widget class="QWidget" name="verticalLayoutWidget_5">
       <property name="geometry">
        <rect>
-        <x>460</x>
+        <x>440</x>
         <y>120</y>
-        <width>601</width>
+        <width>501</width>
         <height>371</height>
        </rect>
       </property>
@@ -602,10 +602,10 @@ Pruebe a cambiar el filtro de busqueda.
      <widget class="QWidget" name="verticalLayoutWidget_6">
       <property name="geometry">
        <rect>
-        <x>460</x>
+        <x>440</x>
         <y>10</y>
-        <width>601</width>
-        <height>101</height>
+        <width>501</width>
+        <height>111</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_6">
@@ -636,8 +636,8 @@ Pruebe a cambiar el filtro de busqueda.
        <rect>
         <x>0</x>
         <y>10</y>
-        <width>431</width>
-        <height>501</height>
+        <width>411</width>
+        <height>531</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_7">
@@ -778,9 +778,9 @@ Pruebe a cambiar el filtro de busqueda.
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>530</y>
-        <width>431</width>
-        <height>81</height>
+        <y>560</y>
+        <width>411</width>
+        <height>71</height>
        </rect>
       </property>
      </widget>
@@ -788,7 +788,7 @@ Pruebe a cambiar el filtro de busqueda.
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>510</y>
+        <y>540</y>
         <width>427</width>
         <height>13</height>
        </rect>
@@ -802,7 +802,7 @@ Pruebe a cambiar el filtro de busqueda.
        <rect>
         <x>690</x>
         <y>500</y>
-        <width>371</width>
+        <width>251</width>
         <height>31</height>
        </rect>
       </property>
@@ -810,9 +810,9 @@ Pruebe a cambiar el filtro de busqueda.
      <widget class="QLabel" name="label_74">
       <property name="geometry">
        <rect>
-        <x>470</x>
+        <x>440</x>
         <y>510</y>
-        <width>211</width>
+        <width>241</width>
         <height>16</height>
        </rect>
       </property>
@@ -823,8 +823,8 @@ Pruebe a cambiar el filtro de busqueda.
      <widget class="QPushButton" name="pushButtonEliminarProyecto">
       <property name="geometry">
        <rect>
-        <x>760</x>
-        <y>570</y>
+        <x>650</x>
+        <y>580</y>
         <width>51</width>
         <height>21</height>
        </rect>
@@ -836,10 +836,10 @@ Pruebe a cambiar el filtro de busqueda.
      <widget class="QWidget" name="verticalLayoutWidget_3">
       <property name="geometry">
        <rect>
-        <x>820</x>
+        <x>710</x>
         <y>540</y>
-        <width>101</width>
-        <height>61</height>
+        <width>103</width>
+        <height>65</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -862,10 +862,10 @@ Pruebe a cambiar el filtro de busqueda.
      <widget class="QWidget" name="verticalLayoutWidget_4">
       <property name="geometry">
        <rect>
-        <x>920</x>
+        <x>810</x>
         <y>540</y>
         <width>111</width>
-        <height>61</height>
+        <height>65</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_10">
@@ -911,7 +911,7 @@ Pruebe a cambiar el filtro de busqueda.
        <rect>
         <x>30</x>
         <y>20</y>
-        <width>1021</width>
+        <width>941</width>
         <height>501</height>
        </rect>
       </property>
@@ -942,6 +942,19 @@ Pruebe a cambiar el filtro de busqueda.
         </spacer>
        </item>
        <item>
+        <widget class="QLabel" name="label_20">
+         <property name="font">
+          <font>
+           <family>Gisha</family>
+           <pointsize>26</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Banco de Proyectos.</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QLabel" name="label_12">
          <property name="font">
           <font>
@@ -969,12 +982,31 @@ Pruebe a cambiar el filtro de busqueda.
        </item>
       </layout>
      </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>430</y>
+        <width>380</width>
+        <height>599</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Gisha</family>
+        <pointsize>26</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Banco de Proyectos.</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="page_7">
      <widget class="QLabel" name="label_30">
       <property name="geometry">
        <rect>
-        <x>230</x>
+        <x>130</x>
         <y>230</y>
         <width>741</width>
         <height>61</height>
@@ -993,8 +1025,8 @@ Pruebe a cambiar el filtro de busqueda.
      <widget class="QPushButton" name="pushButtonBackInsertar">
       <property name="geometry">
        <rect>
-        <x>460</x>
-        <y>350</y>
+        <x>360</x>
+        <y>320</y>
         <width>111</width>
         <height>51</height>
        </rect>
@@ -1011,9 +1043,9 @@ Pruebe a cambiar el filtro de busqueda.
      <widget class="QLabel" name="label_77">
       <property name="geometry">
        <rect>
-        <x>270</x>
+        <x>170</x>
         <y>170</y>
-        <width>781</width>
+        <width>591</width>
         <height>151</height>
        </rect>
       </property>
@@ -1033,7 +1065,7 @@ Importado Correctamente</string>
      <widget class="QWidget" name="horizontalLayoutWidget_7">
       <property name="geometry">
        <rect>
-        <x>480</x>
+        <x>420</x>
         <y>600</y>
         <width>281</width>
         <height>19</height>
@@ -1080,9 +1112,9 @@ Importado Correctamente</string>
      <widget class="QWidget" name="verticalLayoutWidget_8">
       <property name="geometry">
        <rect>
-        <x>480</x>
+        <x>420</x>
         <y>10</y>
-        <width>531</width>
+        <width>501</width>
         <height>531</height>
        </rect>
       </property>
@@ -1155,7 +1187,7 @@ Importado Correctamente</string>
        <rect>
         <x>10</x>
         <y>10</y>
-        <width>441</width>
+        <width>381</width>
         <height>700</height>
        </rect>
       </property>
@@ -1313,7 +1345,7 @@ Importado Correctamente</string>
      <widget class="QSlider" name="horizontalSlider_2">
       <property name="geometry">
        <rect>
-        <x>480</x>
+        <x>420</x>
         <y>560</y>
         <width>241</width>
         <height>41</height>
@@ -1341,7 +1373,7 @@ Importado Correctamente</string>
      <widget class="QLabel" name="label_73">
       <property name="geometry">
        <rect>
-        <x>480</x>
+        <x>420</x>
         <y>550</y>
         <width>181</width>
         <height>16</height>
@@ -1354,7 +1386,7 @@ Importado Correctamente</string>
      <widget class="QPushButton" name="pushButtonGuardarModificar">
       <property name="geometry">
        <rect>
-        <x>880</x>
+        <x>800</x>
         <y>550</y>
         <width>101</width>
         <height>61</height>
@@ -1370,8 +1402,8 @@ Importado Correctamente</string>
      <widget class="QPushButton" name="pushButtonBackModificar">
       <property name="geometry">
        <rect>
-        <x>800</x>
-        <y>572</y>
+        <x>710</x>
+        <y>570</y>
         <width>75</width>
         <height>41</height>
        </rect>
@@ -1388,7 +1420,7 @@ Importado Correctamente</string>
      <widget class="QLabel" name="label_75">
       <property name="geometry">
        <rect>
-        <x>300</x>
+        <x>190</x>
         <y>160</y>
         <width>651</width>
         <height>171</height>
@@ -1408,7 +1440,7 @@ Importado Correctamente</string>
      <widget class="QPushButton" name="pushButtonReturnConsulta">
       <property name="geometry">
        <rect>
-        <x>380</x>
+        <x>290</x>
         <y>310</y>
         <width>131</width>
         <height>41</height>
@@ -1423,9 +1455,9 @@ Importado Correctamente</string>
      <widget class="QLabel" name="label_76">
       <property name="geometry">
        <rect>
-        <x>210</x>
+        <x>90</x>
         <y>170</y>
-        <width>621</width>
+        <width>781</width>
         <height>71</height>
        </rect>
       </property>
@@ -1442,7 +1474,7 @@ Importado Correctamente</string>
      <widget class="QPushButton" name="pushButton">
       <property name="geometry">
        <rect>
-        <x>430</x>
+        <x>390</x>
         <y>260</y>
         <width>91</width>
         <height>41</height>
@@ -1535,7 +1567,7 @@ Importado Correctamente</string>
    <widget class="Line" name="line">
     <property name="geometry">
      <rect>
-      <x>120</x>
+      <x>80</x>
       <y>0</y>
       <width>20</width>
       <height>631</height>
@@ -1548,9 +1580,9 @@ Importado Correctamente</string>
    <widget class="QPushButton" name="pushButton_4">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>10</x>
       <y>580</y>
-      <width>91</width>
+      <width>71</width>
       <height>41</height>
      </rect>
     </property>
@@ -1566,7 +1598,7 @@ Importado Correctamente</string>
      <rect>
       <x>10</x>
       <y>210</y>
-      <width>109</width>
+      <width>71</width>
       <height>71</height>
      </rect>
     </property>
@@ -1594,7 +1626,7 @@ Importado Correctamente</string>
      <rect>
       <x>10</x>
       <y>30</y>
-      <width>111</width>
+      <width>71</width>
       <height>71</height>
      </rect>
     </property>
@@ -1616,7 +1648,7 @@ Importado Correctamente</string>
      <rect>
       <x>10</x>
       <y>120</y>
-      <width>109</width>
+      <width>71</width>
       <height>71</height>
      </rect>
     </property>
@@ -1638,7 +1670,7 @@ Importado Correctamente</string>
      <rect>
       <x>10</x>
       <y>300</y>
-      <width>111</width>
+      <width>71</width>
       <height>71</height>
      </rect>
     </property>
@@ -1652,8 +1684,8 @@ Importado Correctamente</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1217</width>
-     <height>21</height>
+     <width>1109</width>
+     <height>26</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuHerramientas">

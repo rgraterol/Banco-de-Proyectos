@@ -39,3 +39,8 @@ wince*: {
     sqlPlugins.path = sqldrivers
     DEPLOYMENT += sqlPlugins
 }
+
+OTHER_FILES += \
+    Mproject.rc
+
+ RC_FILE = Mproject.rc

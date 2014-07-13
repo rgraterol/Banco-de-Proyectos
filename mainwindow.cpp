@@ -39,7 +39,8 @@
 
 MainWindow::MainWindow(QWidget *parent) :    QMainWindow(parent),    ui(new Ui::MainWindow)
 {
-    setWindowIcon(QIcon("images/icon.png"));
+   // setWindowIcon(QIcon("images/icon.png"));
+    QWidget::setWindowIcon(QIcon("images/icon.jpg"));
     //this->parentWidget()->showFullScreen();
     ui->setupUi(this);
     this->setWindowTitle("Banco de Proyectos V1.0");
@@ -47,7 +48,7 @@ MainWindow::MainWindow(QWidget *parent) :    QMainWindow(parent),    ui(new Ui::
     if (!QSqlDatabase::drivers().contains("QSQLITE"))
         QMessageBox::critical(this, "Unable to load database", "This demo needs the SQLITE driver");
     ui->stackedWidget->setCurrentIndex(5);
-    this->setWindowState(Qt::WindowMaximized);
+    //this->setWindowState(Qt::WindowMaximized);
     ui->pushButtonInsert->setIcon(QIcon("images/insert.png"));
     ui->pushButtonConsult->setIcon(QIcon("images/consult.png"));
     ui->pushButtonList->setIcon(QIcon("images/list.png"));
